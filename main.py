@@ -1,7 +1,7 @@
 import telebot
 from io import BytesIO
 
-TOKEN = "8193635388:AAGLbfLfIx5oLgOPa2EPOULjVHEMMc12gN4"
+TOKEN = "8193635388:AAGniIZHNfDpNME-bduRkABK9g2Ibz8WsnY"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
